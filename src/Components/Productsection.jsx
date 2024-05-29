@@ -40,7 +40,7 @@ const Productsection = () => {
                 <SwiperSlide>
                 <div className='inner-first-div hover:scale-110 transition-all' onClick={() => dispatch(getid(Sliderswip.id))}>
                 <Link to="/pro">
-            <div className='outer-section hover:scale-110 transition-all lg:flex '>
+            <div className='outer-section hover:scale-110 transition-all flex flex-col '>
               <img  className='w-[100%] h-[100%]' src={Sliderswip.image} alt="" />
               <p className='text-black text-mazy font-semibold leading-6 mt-2'>{Sliderswip.text}</p>
               <p className='text-black text-fazy font-bold'>{Sliderswip.price}</p>
